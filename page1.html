@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hackathon Project</title>
+    <style>
+	
+
+      p{
+        font-family: "Source Code Pro";
+	
+      }
+	  h1, h2{
+		font-family: "Source Code Pro";
+		font-weight: bolder;
+	  }
+      table {
+        font-family: "Source Code Pro";
+        font-size: large;
+        width: fit-content;
+		float: inline-start;
+      }
+	  
+	  #make_uc_logo{
+		background-color: rgb(255, 255, 255);
+		
+	  }
+
+      #spotify:hover {
+        transform: scale(1.1);
+		background-color: rgb(255, 255, 255);
+		font-family: "Source Code Pro";
+      }
+	  #spotify{
+		  background: none;
+		background-color: rgb(255, 255, 255);
+		transition-duration: 0.3s;
+		cursor: pointer;
+		font-family: "Source Code Pro";
+		border:0;
+		box-shadow: none;
+		outline:none;
+		appearance: none;
+	  }
+
+	  #spotify_button {
+		  box-shadow: none;
+		  background: none;
+		  background-color: rgb(255, 255, 255);
+		  border: none;
+		  outline: none;
+	  }
+
+	button:focus {
+		border: none;
+		outline: none;
+	}
+	  #form_submit {
+		  background:rgb(20, 20, 20);
+		  color:rgb(20, 20, 20);
+		  border-radius: 10px;
+		  padding:10px 25px;
+		  font-size: larger;
+		  font-family: "Source Code Pro";
+		  animation: changeColor 20s infinite;
+	  }
+
+	  @keyframes changeColor {
+		0% {
+			  background:rgb(255, 63, 63)
+		  }
+		  10% {
+			  background:rgb(242, 255, 63)
+		  }
+		  20% {
+			  background:rgb(124, 255, 63)
+		  }
+		  30% {
+			  background:rgb(63, 169, 255)
+		  }
+		  40% {
+			  background:rgb(249, 63, 255)
+		  }
+		  50% {
+			  background:rgb(124, 255, 63)
+		  }
+		  60% {
+			  background:rgb(255, 236, 63)
+		  }
+		  70% {
+			  background:rgb(92, 63, 255)
+		  }
+		  80% {
+			  background:rgb(63, 255, 175)
+		  }
+		  90% {
+			  background:rgb(255, 156, 63)
+		  }
+		  100% {
+			  background:rgb(63, 249, 255)
+		  }
+	  }
+
+	  @-webkit-keyframes changeColor {
+		0% {
+			  background:rgb(255, 63, 63)
+		  }
+		  10% {
+			  background:rgb(242, 255, 63)
+		  }
+		  20% {
+			  background:rgb(124, 255, 63)
+		  }
+		  30% {
+			  background:rgb(63, 169, 255)
+		  }
+		  40% {
+			  background:rgb(249, 63, 255)
+		  }
+		  50% {
+			  background:rgb(124, 255, 63)
+		  }
+		  60% {
+			  background:rgb(255, 236, 63)
+		  }
+		  70% {
+			  background:rgb(92, 63, 255)
+		  }
+		  80% {
+			  background:rgb(63, 255, 175)
+		  }
+		  90% {
+			  background:rgb(255, 156, 63)
+		  }
+		  100% {
+			  background:rgb(63, 249, 255)
+		  }
+	  }
+
+	  @-o-keyframes changeColor {
+		0% {
+			  background:rgb(255, 63, 63)
+		  }
+		  10% {
+			  background:rgb(242, 255, 63)
+		  }
+		  20% {
+			  background:rgb(124, 255, 63)
+		  }
+		  30% {
+			  background:rgb(63, 169, 255)
+		  }
+		  40% {
+			  background:rgb(249, 63, 255)
+		  }
+		  50% {
+			  background:rgb(124, 255, 63)
+		  }
+		  60% {
+			  background:rgb(255, 236, 63)
+		  }
+		  70% {
+			  background:rgb(92, 63, 255)
+		  }
+		  80% {
+			  background:rgb(63, 255, 175)
+		  }
+		  90% {
+			  background:rgb(255, 156, 63)
+		  }
+		  100% {
+			  background:rgb(63, 249, 255)
+		  }
+	  }
+
+	  @-moz-keyframes changeColor {
+		0% {
+			  background:rgb(255, 63, 63)
+		  }
+		  10% {
+			  background:rgb(242, 255, 63)
+		  }
+		  20% {
+			  background:rgb(124, 255, 63)
+		  }
+		  30% {
+			  background:rgb(63, 169, 255)
+		  }
+		  40% {
+			  background:rgb(249, 63, 255)
+		  }
+		  50% {
+			  background:rgb(124, 255, 63)
+		  }
+		  60% {
+			  background:rgb(255, 236, 63)
+		  }
+		  70% {
+			  background:rgb(92, 63, 255)
+		  }
+		  80% {
+			  background:rgb(63, 255, 175)
+		  }
+		  90% {
+			  background:rgb(255, 156, 63)
+		  }
+		  100% {
+			  background:rgb(63, 249, 255)
+		  }
+	  }
+    </style>
+  </head>
+  <body>
+    <form
+      style="
+        width: 450px;
+        margin: auto;
+        border: solid 5px;
+        padding: 14px 18px 14px 14px;
+        text-align: center;
+      "
+    >
+      <h1 style="font-weight: 600; text-align: center">Welcome Millenials!</h1>
+      <h2>Your Info.</h2>
+      <img
+        src="data:image/png;base64,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"
+        alt="logo" id="make_uc_logo" width="160"
+      />
+      <table style="text-align: left">
+        <tr>
+          <td style="padding: 0"><label for="name">Name:</label></td>
+        </tr>
+        <tr>
+          <td style="padding: 5px 0"><input type="text" name="user_name" /></td>
+        </tr>
+        <tr>
+          <td style="padding: 0"><label for="age">Age:</label></td>
+        </tr>
+
+        <tr>
+          <td style="padding: 5px 0">
+            <input min="0" max="110" type="number" name="user_age" />
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 0">
+            <label for="phonenumber">Phone Number:</label>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 5px 0">
+            <input type="tel" name="user_phone_number" />
+          </td>
+        </tr>
+      </table>
+      <br />
+
+      <button id="spotify_button">
+        <img src="pngaaa.com-701832.png" width="145px" alt="" id = "spotify"/>
+      </button>
+      <br />
+      <br />
+      <br />
+      <button id="form_submit"> ENTER</button>
+    </form>
+  </body>
+</html>
